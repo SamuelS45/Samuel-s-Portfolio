@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+
+*{
+    background-color: rgb(0, 0, 32);
+    /* color: white; */
+    font-family: 'Permanent Marker';
+    font-variant:small-caps;
+}
+.title{
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock{
+    margin: 0%;
+    transition: .8s;
+    opacity: 0.0;
+    color: black;
+    /* color: pink; */
+    /* text-shadow: 0px 0px 20px palevioletred; */
+    
+}
+
+
+#btn{
+    /* position:fixed; */
+    height: 5rem;
+    width: 10rem;
+    position: relative;
+    top: 1rem;
+    transition: .8s;
+    background-color: yellow;
+    color: #f008b7;
+    font-size: 1rem;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.victory {
+    position: relative;
+    margin: 10rem;
+    font-family: 'Permanent Marker', cursive;
+    font-variant:small-caps;
+    font-size: 180px;
+    -webkit-transform: skew(-15deg,-15deg);
+    padding-left: 80px;
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+/* .victory:before {
+    content: '-';
+    position: absolute;
+    bottom: -98px;
+    left: 254px;
+    background-image: -webkit-linear-gradient(#F3C8F3 0%, #F3C8F3 100%);
+    -webkit-background-clip: text;
+    text-shadow: 70px -7px #F3C8F3;
+} */
+/* .victory:after {
+    content: '-';
+    position: absolute;
+    bottom: -85px;
+    left: 395px;
+    background-image: -webkit-linear-gradient(#F3C8F3 0%, #F3C8F3 100%);
+    -webkit-background-clip: text;
+    text-shadow: 70px -5px #F3C8F3;
+} */
+
+/* .victory-v {
+    position: relative;
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+    -webkit-background-clip: text;
+    padding-right: 18px;
+    margin-right: -18px;
+} */
+
+/* .victory-v:before {
+    content: '-';
+    position: absolute;
+    top: -71px;
+    left: -71px;
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #FC96FC 100%);
+    -webkit-background-clip: text;
+} */
+
+/* .victory-v:after {
+    content: '-';
+    position: absolute;
+    top: -72px;
+    left: 103px;
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #FC96FC 100%);
+    -webkit-background-clip: text;
+} */

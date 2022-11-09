@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h1>Calculator </h1>
+        </div>
+    
+    <table class="table">    
+        <tr> 
+            <td colspan="4">
+                <input type="button" title="output" id="output" value="">
+            </td>
+        </tr>
+        <tr><td><input title="input" type="button" onclick="calculate('%')" id="" class="btn" value="Modulus"></td>
+            <td><input title="input" type="button" onclick="c()" id="" class="btn" value="C"></td>
+            <td><input title="input" type="button" onclick="redo()" id="delete" class="btn" value="Redo"></td>
+            <td><input title="input" type="button" onclick="calculate('/')" id="divide" class="btn" value="/"></td>
+        </tr>
+        <tr>
+            <td><input title="input" type="button" onclick="calculate(7)" id="seven" class="btn" value="7"></td>
+            <td><input title="input" type="button" onclick="calculate(8)" id="eight" class="btn" value="8"></td>
+            <td><input title="input" type="button" onclick="calculate(9)" id="nine" class="btn" value="9"></td>
+            <td><input title="input" type="button" onclick="calculate('*')" id="times" class="btn" value="*"></td>
+        </tr>
+        <tr>
+            <td><input title="input" type="button" onclick="calculate(4)" id="four" class="btn" value="4"></td>
+            <td><input title="input" type="button" onclick="calculate(5)" id="five" class="btn" value="5"></td>
+            <td><input title="input" type="button" onclick="calculate(6)" id="six" class="btn" value="6"></td>
+            <td><input title="input" type="button" onclick="calculate('-')" id="minus" class="btn" value="-"></td>
+        </tr>
+        <tr>
+            <td><input title="input" type="button" onclick="calculate(1)" id="one" class="btn" value="1"></td>
+            <td><input title="input" type="button" onclick="calculate(2)" id="two" class="btn" value="2"></td>
+            <td><input title="input" type="button" onclick="calculate(3)" id="three" class="btn" value="3"></td>
+            <td><input title="input" type="button" onclick="calculate('+')" id="plus" class="btn" value="+"></td>
+        </tr>
+        <tr>
+            <td><input title="input" type="button" onclick="calculate(0)" id="zero" class="btn" value="0"></td>
+            <td><input title="input" type="button" onclick="calculate('.')" id="dot" class="btn" value="."></td>
+            <td colspan="2" ><input title="input" type="button" onclick="equal()" id="equal" class="btn" value="="></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
