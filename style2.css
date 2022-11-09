@@ -60,12 +60,18 @@
     z-index: 2;
     border-radius: 1rem;
 
-    right: 20px;
     /* display: flex; */
     /* flex-direction: column; */
     /* transition: .2s; */
     /* top:4rem; */
     /* background-color: #f1f1f1; */
+}
+@media (max-width:1000px) {
+    .dropdown-content{
+        right: 1rem;
+    }
+
+    
 }
 .dropdown:hover .dropdown-content {display: block;}
 .drop{
