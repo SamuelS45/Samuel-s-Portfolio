@@ -1,0 +1,23 @@
+{
+  "name": "samuel-s-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelS45/Samuel-s-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelS45/Samuel-s-Portfolio/issues"
+  },
+  "homepage": "https://github.com/SamuelS45/Samuel-s-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
